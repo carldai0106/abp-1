@@ -29,6 +29,7 @@
     },
     {
       "text": "教程",
+      "path": "Tutorials/Index.md",
       "items": [
         {
           "text": "应用开发",
@@ -97,8 +98,13 @@
           "path": "Caching.md"
         },
         {
-          "text": "审计"
-        }, 
+          "text": "日志",
+          "path": "Logging.md"
+        },
+        {
+          "text": "审计日志",
+          "path": "Audit-Logging.md"
+        },
         {
           "text": "设置管理",
           "path": "Settings.md"
@@ -272,20 +278,22 @@
               "path": "Entity-Framework-Core.md",
               "items": [
                 {
-                  "text": "切换到MySql",
-                  "path": "Entity-Framework-Core-MySQL.md"
-                },
-                {
-                  "text": "切换到PostgreSQL",
-                  "path": "Entity-Framework-Core-PostgreSQL.md"
-                },
-                {
-                  "text": "切换到SQLite",
-                  "path": "Entity-Framework-Core-SQLite.md"
-                },
-                {
-                  "text": "切换到其他DBMS",
-                  "path": "Entity-Framework-Core-Other-DBMS.md"
+                  "text": "切换DMBS",
+                  "path": "Entity-Framework-Core-Other-DBMS.md",
+                  "items":[
+                    {
+                      "text": "到MySql",
+                      "path": "Entity-Framework-Core-MySQL.md"
+                    },
+                    {
+                      "text": "到PostgreSQL",
+                      "path": "Entity-Framework-Core-PostgreSQL.md"
+                    },
+                    {
+                      "text": "到SQLite",
+                      "path": "Entity-Framework-Core-SQLite.md"
+                    }
+                  ]
                 }
               ]
             },
